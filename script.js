@@ -30,11 +30,17 @@ const csvData = [
 
   const start = turf.featureCollection([turf.point(coordinates[0])])
   const end = turf.featureCollection([turf.point(coordinates[coordinates.length - 1])])
-
+  const points=coordinates.map(coordinate=>turf.featureCollection([turf.point(coordinate)]))
+  console.log(points)
   fetch(url)
     .then(response => response.json())
     .then(data => {
       console.log(data)
+      for (const point of points) {
+        new mapboxgl.Marker()
+        .setLngLat(point.features[0].geometry.coordinates)
+        .addTo(map)
+      }
       map.addLayer({
         id: "start",
         type: "circle",
