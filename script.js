@@ -24,7 +24,8 @@ const csvData = [
     center: coordinates[0],
     zoom: 12,
   })
-
+  map.addControl(new mapboxgl.NavigationControl());
+  map.addControl(new mapboxgl.FullscreenControl());
   const waypoints = coordinates.map(coordinate => `${coordinate[0]},${coordinate[1]}`).join(";")
   const url = `https://api.mapbox.com/directions/v5/mapbox/${profile}/${waypoints}?overview=full&geometries=geojson&access_token=${accessToken}`
 
