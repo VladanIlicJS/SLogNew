@@ -8,9 +8,9 @@ const csvData = [
     { address: "Sheher", latitude: 44.7940164, longitude: 20.4439195, capacity: 10 },
     { address: "Milky", latitude: 44.8253265, longitude: 20.4024083, capacity: 9 },
     { address: "Umbrella", latitude: 44.8192078, longitude: 20.4080156, capacity: 7 },
-    { address: "Le Petit", latitude: 44.8150608, longitude: 20.4159752, capacity: 25 },
-    { address: "Kaldi", latitude: 44.8205367, longitude: 20.4176121, capacity: 15 },
-    { address: "Depot", latitude: 44.8101292, longitude: 20.4571921, capacity: 0 },
+   // { address: "Le Petit", latitude: 44.8150608, longitude: 20.4159752, capacity: 25 },
+/*     { address: "Kaldi", latitude: 44.8205367, longitude: 20.4176121, capacity: 15 },
+    { address: "Depot", latitude: 44.8101292, longitude: 20.4571921, capacity: 0 }, */
   ]
 
 
