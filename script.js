@@ -1,15 +1,15 @@
 const csvData = [
-  { address: "Milky", latitude: 44.8253265, longitude: 20.4024083, capacity: 9 },
-  { address: "Umbrella", latitude: 44.8192078, longitude: 20.4080156, capacity: 7 },
-  { address: "Le Petit", latitude: 44.8150608, longitude: 20.4159752, capacity: 25 },
-  { address: "Frans", latitude: 44.7919543, longitude: 20.4623479, capacity: 5 },
-  { address: "Sheher", latitude: 44.7940164, longitude: 20.4439195, capacity: 10 },
   { address: "Depot", latitude: 44.8101292, longitude: 20.4571921, capacity: 0 },
   { address: "Vule vu", latitude: 44.7987483, longitude: 20.4718427, capacity: 20 },
   { address: "The Pijaca", latitude: 44.7951228, longitude: 20.495698, capacity: 13 },
   { address: "Homa", latitude: 44.8154655, longitude: 20.4649624, capacity: 15 },
   { address: "Lorenzo", latitude: 44.8115525, longitude: 20.4710494, capacity: 10 },
   { address: "Milky", latitude: 44.8253265, longitude: 20.4024083, capacity: 9 },
+  { address: "Umbrella", latitude: 44.8192078, longitude: 20.4080156, capacity: 7 },
+  { address: "Le Petit", latitude: 44.8150608, longitude: 20.4159752, capacity: 25 },
+  { address: "Frans", latitude: 44.7919543, longitude: 20.4623479, capacity: 5 },
+  { address: "Sheher", latitude: 44.7940164, longitude: 20.4439195, capacity: 10 },
+  { address: "Depot", latitude: 44.8101292, longitude: 20.4571921, capacity: 0 },
 ]
 
 const accessToken = "pk.eyJ1IjoidmxhZGFuMDE3IiwiYSI6ImNsOW8wb210YjBjbm0zd3M1YTM0bDAwMHQifQ.GQDgnCvVxk_5xKVLHceVQA"
